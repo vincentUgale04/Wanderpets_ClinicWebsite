@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/e3813951e5.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>WonderPets</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/Logo.png" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+   <!--  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Poppins&family=Raleway:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet"> -->
+  </head>
+
+  <body>
+    <!-- ########## START HERE ########## -->
+    <nav
+      id="main-menu"
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+    >
+      <div class="container">
+        <img src="./img/Logo.png" alt="" width="75" />
+        <h2><span class="span-text">Wonder</span>Pets</h2>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu bg-light">
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                <li>
+                  <a class="dropdown-item" href="veterinarian.html"
+                    >Veterinarian</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="about-us.html">About Us</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="">Veterinarian</a>
+              </li> -->
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li><a class="nav-link" href="pricing.html">Pricing</a></li>
+            <!-- <li ><a class="nav-link" href="">Blog</a></li> -->
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+            <form
+              action=""
+              class="navbar-expand-xxl d-flex input-group w-auto mx-3"
+            >
+              <input
+                type="search"
+                class="form-control rounded"
+                placeholder="Search"
+              />
+              <span class="input-group-text border-0"
+                ><i class="fas fa-search"></i
+              ></span>
+            </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- END OF NAVBAR -->
+
+    <!-- START OF HERO SECTION -->
+
+    <div class="hero parallax">
+      <div class="content">
+        <h1>All kinds of care for all kinds of pets.</h1>
+        <p>Building a better future to your pet.</p>
+        <a href="about-us.html" class="btn"> Read More</a>
+      </div>
+    </div>
+
+    <!-- END OF HERO SECTION -->
+
+    <section id="why-us" class="bg-light">
+      <div class="container">
+        <div class="clearfix">
+        <div class="row ">
+          <div class="pug col-md-12 col-lg-5 py-5 my-5">
+            <img src="./img/pug.png" alt="" width="500" class="img-fluid" />
+          </div>
+          <div class="pug-content col-md-12 col-lg-7 py-5 my-5">
+            <div class="row p-5">
+              <h2 class="mb-5">Why Choose Us?</h2>
+              <div class="col-md-6">
+                <i class="fa-solid fa-stethoscope fa-2x me-3"></i>
+                <div class="text">
+                  <h4>Care advises</h4>
+                  <p>
+                    Regular Exams are Vital. Just like you, your pet can get heart problems.
+                  </p>
+                </div>
+                <i class="fa-solid fa-phone fa-2x me-3"></i>
+                <div class="text">
+                  <h4>Customer Supports</h4>
+                  <p>
+                    Our VeterenaryClinic will support you 24/7 through our website and social media.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 ">
+                <i class="fa-solid fa-truck-medical fa-2x me-3"></i>
+                <div class="text">
+                  <h4>Emergency Services</h4>
+                  <p>
+                    Request instructions from your veterinarian or pet emergency hotline.
+                  </p>
+                </div>
+                <i class="fa-solid fa-user-doctor fa-2x me-3"></i>
+                <div class="text">
+                  <h4>Veterinary Help</h4>
+                  <p>
+                    Free Consultation from your vet doctors if you need help within the office hours.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- #### END OF WHY-US ############################################ -->
+
+    <!-- START OF ABOUT (FAQs) -->
+    <div class="py-3">
+      <div id="accordion" class="container my-5">
+        <div class="row faqs">
+          <div class="col-lg-6 col-md-12 faqs-hover"></div>
+          <div class="col-lg-6 col-md-12">
+            <h2 class="card-title mb-2">Frequently Asks Questions</h2>
+            <p>What can we help you find?</p>
+            <div class="card mb-3">
+              <div class="card-header">
+                <a
+                  data-bs-toggle="collapse"
+                  href="#collapseone"
+                  aria-expanded="true"
+                  >How To Train Your Pet Dog?</a
+                >
+              </div>
+              <div
+                id="collapseone"
+                class="collapse show"
+                data-bs-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>
+                       Dogs learn a lot like little kids. They are close in
+                      intelligence to human two-year-olds.
+                    </li>
+                    <li>
+                       Adaptive learning is how well your dog learns from
+                      their surroundings and the environment around them to
+                      solve problems.
+                    </li>
+                    <li>
+                       Both aversive- and reward-based training have been
+                      proven to work.
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="card-header">
+                <a
+                  data-bs-toggle="collapse"
+                  href="#collapsetwo"
+                  aria-expanded="false"
+                  >How To Manage Your Pets?</a
+                >
+              </div>
+              <div
+                id="collapsetwo"
+                class="collapse"
+                data-bs-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>
+                      Provide a protected and clean living environment for
+                      your dog.
+                    </li>
+                    <li> Awalys keep fresh water available.</li>
+                    <li> Feed a quality diet and prevent obesity.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <div class="card-header">
+                <a
+                  data-bs-toggle="collapse"
+                  href="#collapsethree"
+                  aria-expanded="false"
+                  >What Is The Best Grooming For Your Pets?</a
+                >
+              </div>
+              <div
+                id="collapsethree"
+                class="collapse"
+                data-bs-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li>
+                       Regularly brush your dog's coat to prevent matting.
+                    </li>
+                    <li>Trim your dog's hair but use caution.</li>
+                    <li>Safely trim your dog's nails.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header">
+                <a
+                  data-bs-toggle="collapse"
+                  href="#collapsefour"
+                  aria-expanded="false"
+                  >What Are Those Requirements For Sitting Pets?</a
+                >
+              </div>
+              <div
+                id="collapsefour"
+                class="collapse"
+                data-bs-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ol>
+                    <li> Proven experience working as a pet sitter.</li>
+                    <li> Working knowledge of animal behavior.</li>
+                    <li> The ability to perform animal CPR and first aid.</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END OF FAQs -->
+
+    <!-- START OF CLIENTS AND FEEDBACK -->
+    <section id="client">
+      <div class="container py-5">
+        <div class="content text-center pb-3">
+          <h1 class="text-light">Happy Clients & Feedbacks</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="./img/feedback/1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Amrit Gill</h5>
+                <p class="card-text ">
+                  "Service is the rent we pay for being. It is the very purpose
+                  of life, and not something you do in your spare time."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5 ">
+            <div class="card ">
+              <img src="./img/feedback/5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body ">
+                <h5 class="card-title">Shanaya Mathai</h5>
+                <p class="card-text mb-4">
+                  "Happy customers are your biggest advocates and can become
+                  your most successful sales team."
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/feedback/4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Cheng Xiaodan</h5>
+                <p class="card-text mb-4">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF CLIENT AND FEEDBACK -->
+
+    <!-- START OF CONSULTATION -->
+
+    <div class="consult container py-5">
+      <div class="content">
+        <div class="clearfix">
+          <img
+            src="./img/doctor/laura-paraschivescu-1nSfM6xQpVU-unsplash.jpg"
+            class="col-md-6 float-md-end ms-md-3"
+            height="820px"
+          />
+
+          <div class="card p-4 text-center">
+            <h2>Free Consultation</h2>
+            <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.</p>
+            <form action="" class="p-3 text-start form-consultation">
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input
+                  type="name"
+                  name=""
+                  id=""
+                  placeholder="Enter Your Name"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Enter Your email"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Your Phone</label>
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Enter Your Phone"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="birthday" class="form-label">Select Date</label>
+                <input
+                  type="date"
+                  name=""
+                  id="birthday"
+                  placeholder="Enter Your Date"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="time" class="form-label">Select Time</label>
+                <input
+                  type="time"
+                  name=""
+                  id="time"
+                  placeholder="Enter Your Time"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="10"
+                  rows="5"
+                  placeholder="Enter your Message"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <div>
+                <input
+                  class="btn"
+                  type="submit"
+                  value="Submit"
+                >
+                
+                </input>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END OF CONSULTATION -->
+    <!-- START OF FOOTER -->
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <h3 class="text-uppercase fw-bold">WonderPets</h3>
+            <p>
+              From routine checkups and vaccinations to dental care and
+              surgeries, our vets can help your pet stay healthy so they feel
+              their very best. Conveniently located inside your neighborhood
+              Petco, Vetco Total Care makes it easy to get care and essentials
+              in one visit.
+            </p>
+            <ul class="footer-socials list-unstyled">
+              <li>
+                <a href="" class="me-4">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="me-4">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="me-4">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h5 class="text-uppercase fw-bold"><span class="text-success">Join</span> our Community</h5>
+            <img
+              class="rounded d-block img-fluid"
+              src="./img/istockphoto-1143749718-612x612.jpg"
+              alt=""
+              width="200px"
+            />
+            <p>
+                This organization can train your pup to be a helpful therapy
+                dog
+            </p>
+            <a class="btn btn-dark" href="https://www.facebook.com/profile.php?id=100088579267670" target="_blank">Click here</a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <!-- Links -->
+            <div class="footer-links">
+              <h5 class="text-uppercase fw-bold mb-4">Quick Links</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="index.html" class="text-secondary">Home</a>
+                </li>
+                <li>
+                  <a href="about-us.html" class="text-secondary">About</a>
+                </li>
+                <li>
+                  <a href="services.html" class="text-secondary">Services</a>
+                </li>
+
+                <li>
+                  <a href="blog.html" class="text-secondary">Blog</a>
+                </li>
+                <li>
+                  <a href="contact.html" class="text-secondary">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <!-- Links -->
+            <h5 class="text-uppercase fw-bold mb-4">Have a Question?</h5>
+            <p class="text-secondary">
+              <i class="fa-solid fa-map me-3 text-secondary"></i> 18th floor,
+              The W Fifth Avenue, 5th Ave, Taguig, 1630 Metro Manila
+            </p>
+            <p class="text-secondary">
+              <i class="fas fa-phone me-3 text-secondary"></i> +63-2-8123-4567
+            </p>
+            <p class="text-secondary">
+              <i class="fa-solid me-3 fa-envelope"></i>
+              wonderpets@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5 pb-3 text-secondary">
+        Copyright ©2022 All rights reserved |
+        <a href="#" style="text-decoration: none">Wonderpets.com</a>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var form = document.getElementById("form-consultation");
+
+      form.addEventListener("submit", function (event) {
+        event.preventDefault(); //Prevents the form from autosubmitting
+
+        var name = document.getElementById("name").value;
+
+        console.log("name");
+
+        var email = document.getElementById("email").value;
+
+        console.log("email");
+      });
+    </script>
+
+  </body>
+</html>

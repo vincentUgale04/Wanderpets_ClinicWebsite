@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- owl cdnjs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- 1. owl carousel theme -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Gallery</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/7fd90f7e36.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./img/Logo.png" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/lightbox.css">
+
+  </head>
+
+  <body>
+    <!-- ########## START HERE ########## -->
+    <nav
+      id="main-menu"
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+    >
+      <div class="container">
+        <img src="./img/Logo.png" alt="" width="75" />
+        <h2><span class="span-text">Wonder</span>Pets</h2>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu bg-light">
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                <li>
+                  <a class="dropdown-item" href="veterinarian.html"
+                    >Veterinarian</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="about-us.html">About Us</a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="">Veterinarian</a>
+              </li> -->
+            <li><a class="nav-link" href="services.html">Services</a></li>
+            <li><a class="nav-link active" href="gallery.html">Gallery</a></li>
+            <li><a class="nav-link" href="pricing.html">Pricing</a></li>
+            <!-- <li ><a class="nav-link" href="">Blog</a></li> -->
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+            <form
+              action=""
+              class="navbar-expand-xxl d-flex input-group w-auto mx-3"
+            >
+              <input
+                type="search"
+                class="form-control rounded"
+                placeholder="Search"
+              />
+              <span class="input-group-text border-0"
+                ><i class="fas fa-search"></i
+              ></span>
+            </form>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- END OF NAVBAR -->
+
+    <!-- SHOWCASE -->
+    <div class="showcase-parallax">
+      <div class="container">
+        <p class="fw-bold"><a href="index.html"><i class="fas fa-regular fa-house-chimney fa-beat fa-2xl" style="color: #0ca678;"></i></a><h1>Gallery</h1></p>
+      </div>
+    </div>
+
+    <!-- owl carousel -->
+    
+    <div class="container p-5">
+      <section class="showcase-gallery">
+        <div class="p-5">
+          <div class="container shadow">
+            <div class="row p-0 m-0">
+
+              <div class="col-sm-4 py-2 pl-2">
+                <a href="./img/gallery/catdog1.webp" data-lightbox="Pets" data-title="Wonder pets, Wonder pets kikilos na">
+                  <img
+                    src="./img/gallery/catdog1.webp"
+                    class="w-100 h-100 rounded-3"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="col-sm-5 py-2 pl-2">
+                <a href="./img/gallery/doggo4.jpg" data-lightbox="Pets" data-title="Ililigtas ang dolphin ng sama sama">
+                  <img
+                    src="./img/gallery/doggo4.jpg"
+                    class="w-100 h-100 rounded-3"
+                    alt=""
+                  />
+                </a>
+              </div>
+
+              <div class="col-sm-3 py-2 pl-2">
+                <a href="./img/gallery/doggo2.jpg" data-lightbox="Pets" data-title="Hindi malalaki">
+                  <img
+                    src="./img/gallery/doggo2.jpg"
+                    class="w-100 h-100 rounded-3"
+                    alt=""
+                  />
+                </a>
+                </div>
+            </div>
+  
+            <div class="row p-0 m-0">
+              <div class="col-sm-4 pb-2 pl-2">
+                <a href="./img/gallery/cat.jpeg" data-lightbox="Pets" data-title="at hindi malalakas">
+                  <img
+                    src="./img/gallery/cat.jpeg"
+                    class="w-100 h-100 rounded-3"
+                    alt=""
+                  />
+                </a>
+                </div>
+  
+              <div class="col-sm-8 pb-2">
+                <div class="row">
+                  <div class="col-md-4 pb-2">
+                    <a href="./img/gallery/doggo3.jpg" data-lightbox="Pets" data-title="pero pag nag tulungan">
+                      <img
+                        src="./img/gallery/doggo3.jpg"
+                        class="w-100 h-100 rounded-3"
+                        alt=""
+                      />
+                    </a>
+                    </div>
+  
+                  <div class="col-md-8 pb-2">
+                    <a href="./img/gallery/312632697_2157341804468146_7256375034884839189_n.jpg" data-lightbox="Pets" data-title="lahat malulutas">
+                      <img
+                        src="./img/gallery/312632697_2157341804468146_7256375034884839189_n.jpg"
+                        class="w-100 h-100 rounded-3"
+                        alt=""
+                      />
+                    </a>
+                    </div>
+  
+                  <div class="col-md-8 pb-2">
+                    <a href="./img/gallery/doggo5.jpeg" data-lightbox="Pets" data-title="go wonderpets!!">
+                      <img
+                        src="./img/gallery/doggo5.jpeg"
+                        class="w-100 h-100 rounded-3"
+                        alt=""
+                      />
+                    </a>
+                    </div>
+  
+                  <div class="col-md-4 pb-2">
+                    <a href="./img/gallery/dog12.jpeg" data-lightbox="Pets" data-title="Caption">
+                      <img
+                        src="./img/gallery/dog12.jpeg"
+                        class="w-100 h-100 rounded-3"
+                        alt=""
+                      />
+                    </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container">
+          <h2 class="text-center mt-5 pt-5">Pets of the day!</h2>
+          <div class="row mx-5">
+            <div class="owl-carousel owl-theme">
+              <!-- start item -->
+              <div class="item mb-5 py-1">
+                <div class="card border-0 shadow">
+                  <img src="./img/gallery/dog2.jpg" alt="" class="card-img-top" />
+                  <div class="card-body">
+                    <h2 class="text-center">Pixie</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <div class="item mb-5 py-1">
+                <div class="card border-0 shadow">
+                  <img src="./img/gallery/cat1.jpg" alt="" class="card-img-top" />
+                  <div class="card-body">
+                    <h2 class="text-center">Layla & Lylia</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <div class="item mb-5 py-1">
+                <div class="card border-0 shadow">
+                  <img src="./img/gallery/dog3.jpg" alt="" class="card-img-top" />
+                  <div class="card-body">
+                    <h2 class="text-center">Lucky</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <div class="item mb-5 py-1">
+                <div class="card border-0 shadow">
+                  <img src="./img/gallery/cat2.jpg" alt="" class="card-img-top" />
+                  <div class="card-body">
+                    <h2 class="text-center">Zues</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <div class="item mb-5 py-1">
+                <div class="card border-0 shadow">
+                  <img src="./img/gallery/dog4.jpg" alt="" class="card-img-top" />
+                  <div class="card-body">
+                    <h2 class="text-center">Sven</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <div class="item mb-5 py-1">
+                <div class="card border-0 shadow">
+                  <img
+                    src="./img/gallery/dog1.jpeg"
+                    alt=""
+                    class="card-img-top"
+                  />
+                  <div class="card-body">
+                    <h2 class="text-center">Amber</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+              <div class="item mb-5 py-1">
+                <div class="card border-0 shadow">
+                  <img src="./img/gallery/cat3.jpg" alt="" class="card-img-top" />
+                  <div class="card-body">
+                    <h2 class="text-center">Loki</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- end item -->
+            </div>
+          </div>
+        </div>  
+
+        </div>
+      </section>
+    
+
+    <!-- START OF FOOTER -->
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <h3 class="text-uppercase fw-bold">WonderPets</h3>
+            <p>
+              From routine checkups and vaccinations to dental care and
+              surgeries, our vets can help your pet stay healthy so they feel
+              their very best. Conveniently located inside your neighborhood
+              Petco, Vetco Total Care makes it easy to get care and essentials
+              in one visit.
+            </p>
+            <ul class="footer-socials list-unstyled">
+              <li>
+                <a href="" class="me-4">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="me-4">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="me-4">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h5 class="text-uppercase fw-bold"><span class="text-success">Join</span> our Community</h5>
+            <img
+              class="rounded d-block img-fluid"
+              src="./img/istockphoto-1143749718-612x612.jpg"
+              alt=""
+              width="200px"
+            />
+            <p>
+                This organization can train your pup to be a helpful therapy
+                dog
+            </p>
+            <a class="btn btn-dark" href="https://www.facebook.com/profile.php?id=100088579267670" target="_blank">Click here</a>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <!-- Links -->
+            <div class="footer-links">
+              <h5 class="text-uppercase fw-bold mb-4">Quick Links</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="index.html" class="text-secondary">Home</a>
+                </li>
+                <li>
+                  <a href="about-us.html" class="text-secondary">About</a>
+                </li>
+                <li>
+                  <a href="services.html" class="text-secondary">Services</a>
+                </li>
+
+                <li>
+                  <a href="blog.html" class="text-secondary">Blog</a>
+                </li>
+                <li>
+                  <a href="contact.html" class="text-secondary">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <!-- Links -->
+            <h5 class="text-uppercase fw-bold mb-4">Have a Question?</h5>
+            <p class="text-secondary">
+              <i class="fa-solid fa-map me-3 text-secondary"></i> 18th floor,
+              The W Fifth Avenue, 5th Ave, Taguig, 1630 Metro Manila
+            </p>
+            <p class="text-secondary">
+              <i class="fas fa-phone me-3 text-secondary"></i> +63-2-8123-4567
+            </p>
+            <p class="text-secondary">
+              <i class="fa-solid me-3 fa-envelope"></i>
+              wonderpets@gmail.com
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5 pb-3 text-secondary">
+        Copyright ©2022 All rights reserved |
+        <a href="#" style="text-decoration: none">Wonderpets.com</a>
+      </div>
+    </footer>
+    <!-- END OF FOOTER -->
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- cdn files -->
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- 1 -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    
+
+    <!-- Init owl carousel -->
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+
+  <script src="./js/lightbox-plus-jquery.js"></script>
+  </body>
+</html>

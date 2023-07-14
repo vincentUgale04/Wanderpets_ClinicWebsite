@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog</title>
+  <!-- Links -->
+
+  <script src="https://kit.fontawesome.com/7fd90f7e36.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="shortcut icon" href="./img/Logo.png" />
+  <link rel="stylesheet" href="./css/mobile.css" />
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!--###### Navbar ################################### -->
+  <nav id="main-menu" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <img src="./img/Logo.png" alt="" width="75" />
+      <h2><span class="span-text">Wonder</span>Pets</h2>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu bg-light">
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li>
+                <a class="dropdown-item" href="veterinarian.html">Veterinarian</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="about-us.html">About Us</a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="">Veterinarian</a>
+          </li> -->
+          <li><a class="nav-link" href="services.html">Services</a></li>
+          <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-link" href="pricing.html">Pricing</a></li>
+          <!-- <li ><a class="nav-link" href="">Blog</a></li> -->
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+          <form action="" class="navbar-expand-xxl d-flex input-group w-auto mx-3">
+            <input type="search" class="form-control rounded" placeholder="Search" />
+            <span class="input-group-text border-0"><i class="fas fa-search"></i></span>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--###### End of Navbar ################################### -->
+
+
+  <!-- Hero Carousel Blog -->
+  <div id="herocarousel" class="carousel slide" data-bs-ride="true">
+    <!-- Carousel showcase pic -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="showcase-parallax">
+          <div class="container">
+            <p class="fw-bold"><a href="index.html"><i class="fas fa-regular fa-house-chimney fa-beat fa-2xl" style="color: #0ca678;"></i></a><h1>Blog</h1></p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="showcase-parallax">
+          <div class="container">
+            <h1><a href="article.html">Hayop na may microchip</a></h1>
+            <div class="flex column text-end ms-4">
+              <div class="category category-latest">latest news</div>
+              <div class="category category-dogs">for dogs</div>
+              <div class="category category-cats">for cats</div>
+            </div>
+            <p>
+              <a href="article.html">Hayop na may microchip, puwedeng dalhin sa city vet o vet clinics para maibalik sa
+                may-ari
+                sakaling
+                mawala</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="showcase-parallax">
+          <div class="container">
+            <h1><a href="article.html">Hayop na may microchip</a></h1>
+            <div class="flex column text-end ms-4">
+              <div class="category category-latest">latest news</div>
+              <div class="category category-dogs">for dogs</div>
+              <div class="category category-cats">for cats</div>
+            </div>
+            <p>
+              <a href="article.html">Hayop na may microchip, puwedeng dalhin sa city vet o vet clinics para maibalik sa
+                may-ari
+                sakaling
+                mawala</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="showcase-parallax">
+          <div class="container">
+            <h1><a href="article.html">Hayop na may microchip</a></h1>
+            <div class="flex column text-end ms-4">
+              <div class="category category-latest">latest news</div>
+              <div class="category category-dogs">for dogs</div>
+              <div class="category category-cats">for cats</div>
+            </div>
+            <p>
+              <a href="article.html">Hayop na may microchip, puwedeng dalhin sa city vet o vet clinics para maibalik sa
+                may-ari
+                sakaling
+                mawala</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Left and right buttons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#herocarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#herocarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Blog Card -->
+    <!-- 1st -->
+    <main id="blog-main">
+      <section id="Blogcard">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="title text-center mt-5 ">
+              <h1><a href="#">Latest Blog</a></h1>
+              <p><a href="#">Browse to our Latest News & Updates</a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 pt-2">
+              <!-- mt-4 -->
+              <div class="card">
+                <!-- <a href=""><img src="./img/gallery/29603.jpg" alt="" class="card-img-top" /></a> -->
+                <a href="blogpost.html"><img src="./img/gallery/29603.jpg" alt="" class="card-img-top" /></a>
+                <div class="card-body">
+                  <h4 class="card-title p-3"><a href="#">Hayop na may microchip</a></h4>
+                  <p class="card-text p-3">
+                    <a href="#">
+                      Hayop na may microchip, puwedeng dalhin sa city vet o vet clinics para maibalik sa may-ari
+                      sakaling
+                      mawala
+
+                      Bangungot na maituturing para sa pet owners na mawala ang kanilang fur babies na itinuturing na
+                      rin
+                      nilang pamilya. Pero
+                      kung mangyari man 'yan, may microchip nang maaaring ilagay sa inyong mga alaga na libre pang
+                      makukuha
+                      sa ilang lokal na
+                      pamahalaan. Nakatutok si Saleema Refran.
+                    </a>
+                  </p>
+                  <a href="" class="card-subtitle mb-2 p-3 text-muted">Aug 16, 2022</a>
+                  <div class="category category-latest">latest news</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-2 ">
+              <div class="card">
+                <a href=""><img src="./img/gallery/29603.jpg" alt="" class="card-img-top" /></a>
+                <div class="card-body">
+                  <h4 class="card-title p-3"><a href="#">Hayop na may microchip</a></h4>
+                  <p class="card-text p-3">
+                    <a href="#">
+                      Hayop na may microchip, puwedeng dalhin sa city vet o vet clinics para maibalik sa may-ari
+                      sakaling
+                      mawala
+
+                      Bangungot na maituturing para sa pet owners na mawala ang kanilang fur babies na itinuturing na
+                      rin
+                      nilang pamilya. Pero
+                      kung mangyari man 'yan, may microchip nang maaaring ilagay sa inyong mga alaga na libre pang
+                      makukuha
+                      sa ilang lokal na
+                      pamahalaan. Nakatutok si Saleema Refran.
+                    </a>
+                  </p>
+                  <a href="" class="card-subtitle mb-2 p-3 text-muted">Aug 16, 2022</a>
+                  <div class="category category-latest">latest news</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 pt-2">
+              <div class="card">
+                <a href=""><img src="./img/gallery/29603.jpg" alt="" class="card-img-top" /></a>
+                <div class="card-body">
+                  <h4 class="card-title p-3"><a href="#">Hayop na may microchip</a></h4>
+                  <p class="card-text p-3">
+                    <a href="#">
+                      Hayop na may microchip, puwedeng dalhin sa city vet o vet clinics para maibalik sa may-ari
+                      sakaling
+                      mawala
+
+                      Bangungot na maituturing para sa pet owners na mawala ang kanilang fur babies na itinuturing na
+                      rin
+                      nilang pamilya. Pero
+                      kung mangyari man 'yan, may microchip nang maaaring ilagay sa inyong mga alaga na libre pang
+                      makukuha
+                      sa ilang lokal na
+                      pamahalaan. Nakatutok si Saleema Refran.
+                    </a>
+                  </p>
+                  <a href="" class="card-subtitle mb-2 p-3 text-muted">Aug 16, 2022</a>
+                  <div class="category category-latest">latest news</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2nd -->
+      <section id="Blogcard" class="pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mt-4 pt-2">
+              <div class="card">
+                <a href=""><img src="./img/gallery/29603.jpg" alt="" class="card-img-top" /></a>
+                <div class="card-body">
+                  <h4 class="card-title p-3"><a href="#">Hayop na may microchip</a></h4>
+                  <p class="card-text p-3">
+                    <a href="#">
+                      Hayop na may microchip, puwedeng dalhin sa city vet o vet clinics para maibalik sa may-ari
+                      sakaling
+                      mawala
+
+                      Bangungot na maituturing para sa pet owners na mawala ang kanilang fur babies na itinuturing na
+                      rin
+                      nilang pamilya. Pero
+                      kung mangyari man 'yan, may microchip nang maaaring ilagay sa inyong mga alaga na libre pang
+                      makukuha
+                      sa ilang lokal na
+                      pamahalaan. Nakatutok si Saleema Refran.
+                    </a>
+                  </p>
+                  <a href="" class="card-subtitle mb-2 p-3 text-muted">Aug 16, 2022</a>
+                  <div class="category category-latest">latest news</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-4 pt-2">
+              <div class="card">
+                <a href=""><img src="./img/gallery/29603.jpg" alt="" class="card-img-top" /></a>
+                <div class="card-body">
+                  <h4 class="card-title p-3"><a href="#">Hayop na may microchip</a></h4>
+                  <p class="card-text p-3">
+                    <a href="#">
+                      Hayop na may microchip, puwedeng dalhin sa city vet o vet clinics para maibalik sa may-ari
+                      sakaling
+                      mawala
+
+                      Bangungot na maituturing para sa pet owners na mawala ang kanilang fur babies na itinuturing na
+                      rin
+                      nilang pamilya. Pero
+                      kung mangyari man 'yan, may microchip nang maaaring ilagay sa inyong mga alaga na libre pang
+                      makukuha
+                      sa ilang lokal na
+                      pamahalaan. Nakatutok si Saleema Refran.
+                    </a>
+                  </p>
+                  <a href="" class="card-subtitle mb-2 p-3 text-muted">Aug 16, 2022</a>
+                  <div class="category category-latest">latest news</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mt-4 pt-2">
+              <div class="card">
+                <a href=""><img src="./img/gallery/29603.jpg" alt="" class="card-img-top" /></a>
+                <div class="card-body">
+                  <h4 class="card-title p-3"><a href="#">Hayop na may microchip</a></h4>
+                  <p class="card-text p-3">
+                    <a href="#">
+                      Hayop na may microchip, puwedeng dalhin sa city vet o vet clinics para maibalik sa may-ari
+                      sakaling
+                      mawala
+
+                      Bangungot na maituturing para sa pet owners na mawala ang kanilang fur babies na itinuturing na
+                      rin
+                      nilang pamilya. Pero
+                      kung mangyari man 'yan, may microchip nang maaaring ilagay sa inyong mga alaga na libre pang
+                      makukuha
+                      sa ilang lokal na
+                      pamahalaan. Nakatutok si Saleema Refran.
+                    </a>
+                  </p>
+                  <a href="" class="card-subtitle mb-2 p-3 text-muted">Aug 16, 2022</a>
+                  <div class="category category-latest">latest news</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- End of Blog Card -->
+
+      <!-- Pagination -->
+      <ul id="pagination" class="pagination justify-content-center">
+        <li class="page-item"><a class="page-link" href="#"> &lt; </a></li>
+        <li class="page-item"><a class="page-link current" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item"><a class="page-link" href="#"> &gt; </a></li>
+      </ul>
+      <!-- End Pagination -->
+    </main>
+
+    <!-- START OF FOOTER -->
+    <footer class="main-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <h3 class="text-uppercase fw-bold">WonderPets</h3>
+        <p>
+          From routine checkups and vaccinations to dental care and
+          surgeries, our vets can help your pet stay healthy so they feel
+          their very best. Conveniently located inside your neighborhood
+          Petco, Vetco Total Care makes it easy to get care and essentials
+          in one visit.
+        </p>
+        <ul class="footer-socials list-unstyled">
+          <li>
+            <a href="" class="me-4">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" class="me-4">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="" class="me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <h5 class="text-uppercase fw-bold"><span class="text-success">Join</span> our Community</h5>
+        <img
+          class="rounded d-block img-fluid"
+          src="./img/istockphoto-1143749718-612x612.jpg"
+          alt=""
+          width="200px"
+        />
+        <p>
+            This organization can train your pup to be a helpful therapy
+            dog
+        </p>
+        <a class="btn btn-dark" href="https://www.facebook.com/profile.php?id=100088579267670" target="_blank">Click here</a>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <!-- Links -->
+        <div class="footer-links">
+          <h5 class="text-uppercase fw-bold mb-4">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html" class="text-secondary">Home</a>
+            </li>
+            <li>
+              <a href="about-us.html" class="text-secondary">About</a>
+            </li>
+            <li>
+              <a href="services.html" class="text-secondary">Services</a>
+            </li>
+
+            <li>
+              <a href="blog.html" class="text-secondary">Blog</a>
+            </li>
+            <li>
+              <a href="contact.html" class="text-secondary">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <!-- Links -->
+        <h5 class="text-uppercase fw-bold mb-4">Have a Question?</h5>
+        <p class="text-secondary">
+          <i class="fa-solid fa-map me-3 text-secondary"></i> 18th floor,
+          The W Fifth Avenue, 5th Ave, Taguig, 1630 Metro Manila
+        </p>
+        <p class="text-secondary">
+          <i class="fas fa-phone me-3 text-secondary"></i> +63-2-8123-4567
+        </p>
+        <p class="text-secondary">
+          <i class="fa-solid me-3 fa-envelope"></i>
+          wonderpets@gmail.com
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-5 pb-3 text-secondary">
+    Copyright ©2022 All rights reserved |
+    <a href="#" style="text-decoration: none">Wonderpets.com</a>
+  </div>
+</footer>
+    <!-- END OF FOOTER -->
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
+

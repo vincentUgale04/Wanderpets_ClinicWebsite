@@ -1,0 +1,752 @@
+/* Variable */
+:root {
+  --primary-color: #84ac2c;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nerko One", cursive;
+}
+/*---------------------------------------------------------
+ boss andres 
+ ---------------------------------------------------------*/
+body html {
+  /* font-family: "Open Sans", sans-serif; */
+  color: #333;
+  line-height: 1.6;
+  height: 200vh;
+}
+
+ul {
+  list-style: none;
+}
+/* Button */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: var(--primary-color) !important;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  color: #fff !important;
+}
+/* Navbar */
+
+/* HERO SECTION */
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero .content h1 {
+  font-size: 65px;
+}
+
+.hero .content p {
+  font-size: 45px;
+  max-width: 800px;
+  margin: 20px 0 30px;
+}
+
+.hero * {
+  z-index: 10;
+}
+.parallax {
+  /* The image used */
+  background: url("../img/background/herosection.jpg") no-repeat center
+    center/cover;
+  height: 100vh;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+/* FAQs */
+.faqs a {
+  text-decoration: none !important;
+  color: black !important;
+}
+#accordion a:hover {
+  color: var(--primary-color) !important;
+  border-radius: 40px !important;
+}
+#accordion .faqs-hover {
+  background: url("../img/faqs/jamie-street-MoDcnVRN5JU-unsplash.jpg") no-repeat
+    center center/cover;
+  border-radius: 10px;
+}
+/* CLIENT AND FEEDBACK */
+#client {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/background/feedbackbg.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+}
+
+/* CONSULTATION */
+#consultation .schedule {
+  background: url("../img/doctor/laura-paraschivescu-1nSfM6xQpVU-unsplash.jpg")
+    no-repeat center center/cover;
+  border-radius: 10px;
+}
+
+/* ########## NAVBAR ############################### */
+.navbar {
+  font-weight: bold;
+  display: flex;
+}
+.navbar a {
+  color: #333;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+.navbar a:hover {
+  border-bottom: var(--primary-color) 1px solid;
+  color: var(--primary-color);
+}
+
+.navbar .span-text {
+  color: var(--primary-color);
+}
+
+.navbar .navbar-nav .dropdown-menu a,
+.navbar .navbar-nav .dropdown-menu a:hover {
+  border-bottom: none;
+  background: none;
+}
+.navbar .input-group {
+  margin-left: 200px;
+}
+#main-menu .container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#main-menu .nav-link.active {
+  border-bottom: var(--primary-color) 1px solid;
+  color: var(--primary-color);
+}
+
+/* ########## End of Navbar ############################### */
+
+/* ########## Showcase ############################### */
+.showcase-parallax {
+  background-image: url("../img/Servicesparallax.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase-parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.showcase-parallax .container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  text-align: start;
+  height: 100%;
+  padding: 10px 20px;
+}
+
+.showcase-parallax * {
+  z-index: 10;
+}
+
+.showcase-parallax .container h1 {
+  font-size: 45px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.showcase-parallax .container a {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.showcase-parallax .container p {
+  color: #fff;
+}
+
+.showcase-parallax .container a:hover {
+  color: var(--primary-color);
+  border-radius: 40px;
+}
+
+/* ########## SERVICES ############################### */
+#services {
+  background-color: #f5f5f5;
+}
+
+#services .services-box {
+  text-align: center;
+  border: 2px solid #f4f4f4;
+  border-radius: 5px;
+  padding: 70px;
+  background: #fff;
+  height: 100%;
+  box-shadow: 1px 1.3px 1.5px rgba(0, 0, 0, 0.016),
+    2.1px 3px 3.4px rgba(0, 0, 0, 0.023), 3.7px 5.1px 5.7px rgba(0, 0, 0, 0.028),
+    5.6px 7.9px 8.8px rgba(0, 0, 0, 0.033),
+    8.4px 11.7px 13.1px rgba(0, 0, 0, 0.037),
+    12.3px 17.2px 19.2px rgba(0, 0, 0, 0.042),
+    18.4px 25.8px 28.8px rgba(0, 0, 0, 0.047),
+    29.3px 41.1px 45.9px rgba(0, 0, 0, 0.054),
+    55px 77px 86px rgba(0, 0, 0, 0.07);
+}
+
+#services .services-box .icon {
+  margin: auto;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#services .services-box p {
+  line-height: 1.8rem;
+}
+
+#services .services-box h4 {
+  margin: 20px 0;
+}
+
+#services .services-box a {
+  color: #333;
+}
+
+#services .services-box:hover {
+  background-color: #636363;
+  color: white;
+}
+
+/* ########## END OF SERVICES ############################### */
+
+/* ########## Vets ############################### */
+
+#vets {
+  background: #fff;
+  padding: 60px 0;
+}
+
+#vets .member {
+  box-shadow: 1px 1.3px 1.5px rgba(0, 0, 0, 0.016),
+    2.1px 3px 3.4px rgba(0, 0, 0, 0.023), 3.7px 5.1px 5.7px rgba(0, 0, 0, 0.028),
+    5.6px 7.9px 8.8px rgba(0, 0, 0, 0.033),
+    8.4px 11.7px 13.1px rgba(0, 0, 0, 0.037),
+    12.3px 17.2px 19.2px rgba(0, 0, 0, 0.042),
+    18.4px 25.8px 28.8px rgba(0, 0, 0, 0.047),
+    29.3px 41.1px 45.9px rgba(0, 0, 0, 0.054),
+    55px 77px 86px rgba(0, 0, 0, 0.07);
+}
+
+#vets .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+#vets .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+#vets .member .social a {
+  transition: color 0.3s;
+  color: #151515;
+  margin: 0 3px;
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+#vets .member .social a:hover {
+  color: #151515;
+  background: var(--primary-color);
+}
+
+#vets .member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+#vets .member:hover .social {
+  opacity: 1;
+  bottom: 10px;
+}
+
+#vets .member .member-info {
+  padding: 25px 15px;
+}
+
+#vets .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #151515;
+}
+
+#vets .member .member-info span {
+  font-size: 13px;
+  color: #aaaaaa;
+}
+
+#vets .member .member-info p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+/* ########## End of Vets ############################### */
+
+/*---------------------------------------------------------
+ boss neil
+ ---------------------------------------------------------*/
+/* ##### GALLERY ################# */
+
+main .showcase-gallery {
+  background: #f4f4f4;
+  height: 100%;
+  width: 100vw;
+}
+
+.item img {
+  height: 200px;
+}
+
+.words {
+  animation: animate1 0.8s forwards ease-in-out;
+  position: relative;
+}
+
+.words-2 {
+  animation: animate2 0.8s forwards ease-in-out;
+  position: relative;
+}
+
+@keyframes animate1 {
+  from {
+    bottom: -70px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+
+@keyframes animate2 {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+/* ##### END OF GALLERY ################# */
+
+/*####### PRICING ################### */
+.pricing {
+  background: #f4f4f4;
+  height: 100%;
+  width: 100vw;
+}
+
+/* ########## Footer ############################### */
+
+.main-footer {
+  background-color: #333;
+  color: #f4f4f4;
+  padding: 50px;
+  overflow: hidden;
+}
+.main-footer p {
+  line-height: 1.8rem;
+}
+
+.main-footer a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+.main-footer a:hover {
+  color: var(--primary-color);
+}
+
+.main-footer .footer-socials {
+  display: flex;
+}
+.main-footer .footer-links li {
+  line-height: 3rem;
+}
+
+.main-footer .footer-socials a {
+  text-align: none;
+  color: var(--primary-color);
+}
+
+.main-footer .footer-socials a:hover {
+  color: #f4f4f4;
+}
+
+/*---------------------------------------------------------
+ boss brian
+ ---------------------------------------------------------*/
+/* Blog */
+/* Varialble */
+:root {
+  --primary-color: #84ac2c;
+  --second-color: #5f8d4e;
+  --third-color: #333;
+  --fourth-color: #fff;
+  --fifth-color: #f4f4f4;
+}
+
+/* button indators */
+.carousel-indicators button {
+  border-radius: 100%;
+}
+
+#herocarousel .category {
+  display: inline-block;
+  color: var(--fourth-color);
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+  margin-bottom: 0.5rem;
+}
+
+#herocarousel .category-cats {
+  background: var(--third-color);
+}
+
+#herocarousel .category-dogs {
+  background: var(--second-color);
+}
+
+#herocarousel .category-latest {
+  background: var(--primary-color);
+}
+
+/* BlogParralax */
+/* blogcarousel0 */
+.blog-parallax {
+  background-image: url("../img/background/herosection.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.blog-parallax .container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  text-align: start;
+  height: 100%;
+}
+
+.blog-parallax * {
+  z-index: 10;
+}
+
+.blog-parallax .container a {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.blog-parallax .container a:hover {
+  color: var(--primary-color);
+  border-radius: 40px;
+}
+/* blogcarousel1 */
+.blog-parallax1 {
+  background-image: url("../img/Servicesparallax.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-parallax1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.blog-parallax1 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  text-align: start;
+  height: 100%;
+}
+
+.blog-parallax1 * {
+  z-index: 10;
+}
+
+.blog-parallax1 .container a {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.blog-parallax1 .container a:hover {
+  color: var(--primary-color);
+  border-radius: 40px;
+}
+/* blogcarousel2 */
+.blog-parallax2 {
+  background-image: url("../img/background/hannah-lim-U6nlG0Y5sfs-unsplash.jpg");
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blog-parallax2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.blog-parallax2 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  text-align: start;
+  height: 100%;
+}
+
+.blog-parallax2 * {
+  z-index: 10;
+}
+
+.blog-parallax2 .container a {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.blog-parallax2 .container a:hover {
+  color: var(--primary-color);
+  border-radius: 40px;
+}
+
+/* Blog Card */
+#blog-main form input {
+  background-color: var(--fifth-color);
+}
+
+#blog-main form span:hover {
+  background-color: var(--primary-color);
+}
+#blog-main .card-body {
+  background-color: var(--fifth-color);
+}
+#Blogcard .category {
+  display: inline-block;
+  color: var(--fourth-color);
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+}
+
+#Blogcard .category-cats {
+  background: var(--third-color);
+}
+
+#Blogcard .category-dogs {
+  background: var(--second-color);
+}
+
+#Blogcard .category-latest {
+  background: var(--primary-color);
+}
+#Blogcard a {
+  color: var(--third-color);
+  text-decoration: none;
+}
+#Blogcard .card:hover {
+  border: var(--primary-color) 1px solid;
+  box-shadow: 10px 10px var(--second-color);
+}
+
+/* Pagination */
+#pagination a {
+  border: none;
+  color: var(--third-color);
+}
+#pagination .current {
+  color: var(--fourth-color);
+  background: var(--primary-color);
+}
+#pagination a:hover {
+  color: var(--fourth-color);
+  background: var(--primary-color);
+}
+
+/* Blog Post */
+#blogpost .category {
+  display: inline-block;
+  color: var(--fourth-color);
+  font-size: 0.55rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0.6rem;
+  border-radius: 15px;
+}
+#blogpost .category-cats {
+  background: var(--third-color);
+}
+#blogpost .category-dogs {
+  background: var(--second-color);
+}
+#blogpost .category-latest {
+  background: var(--primary-color);
+}
+#blogpost .sidewidget .card {
+  border: var(--primary-color) solid 4px;
+  background-color: var(--fifth-color);
+  color: var(--third-color);
+}
+/* Contacts */
+#contact-main {
+  background-color: var(--fifth-color);
+}
+
+/* Icons */
+.icons {
+  margin-top: 5%;
+}
+
+.icons .icon {
+  background-image: url("../img/background/Icons.jpg");
+  height: 10vh;
+  width: 10vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: 15%;
+}
+
+.icons i {
+  color: var(--fourth-color);
+  padding: 1.5rem;
+  margin-top: 40%;
+  margin-bottom: 15px;
+}
+.icons a {
+  text-decoration: none;
+  color: var(--third-color);
+}
+.icons a:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+/* form */
+section .form {
+  margin-top: 7%;
+  background-color: var(--fourth-color);
+}
+#form .form {
+  border: var(--third-color) solid 1px;
+  border-radius: 2%;
+}
+#form .form .form-group .form-control {
+  border: var(--third-color) solid 1px;
+  background-color: #fff;
+}
+#form .form .form-group .form-control:focus {
+  border-bottom: var(--primary-color) 4px solid;
+}
+#form .form .form-group .btns {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+}
+#form .form .form-group .btns:hover {
+  background-color: #fff;
+  border: var(--primary-color) 2px solid;
+  color: var(--primary-color);
+}
+.form .info-wrap {
+  background-image: url("../img/Servicesparallax.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
